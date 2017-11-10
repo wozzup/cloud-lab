@@ -35,7 +35,7 @@ TOP_DIR=$(cd $(dirname $0)/../../ && pwd)
 [ -z "$loop" ] && loop=1
 [ -z "$prompt" ] && prompt='Hello, Cloud Lab!'
 [ -z "$empty_prompt" ] && empty_prompt='当前没有任何 Lab 在线运行!'
-[ -z "$cpus" ] && cpus="0-3"
+[ -z "$cpus" ] && cpus="1-3"
 [ -z "$timeout" ] && timeout=1
 
 LAB_SECURITY=$security
